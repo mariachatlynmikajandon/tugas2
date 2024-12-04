@@ -1,0 +1,32 @@
+
+import static java.time.Clock.system;
+import static java.time.InstantSource.system;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author Hp
+ */
+public class matematikaberaksi {
+    public static void main(string[] args){
+        matematikacanggih matcanggih = new matematikacanggih();
+        
+        //uji angkah pecahan
+        system.out.println("uji patameter pecahan:");
+        system.out.println("pertambahan: %.2f&n", matcanggih.pertambahan(12.5, 28.7, 14.2));
+        system.out.println("pertambahan: " + matcanggih.pertambahan(12, 28, 14));
+        system.out.println("pertambahan: " + matcanggih.pertambahan(23, 34));
+        system.out.printf("pertambahan: %.2f%n", matcanggih.pertambahan(3.4, 4.9));
+        
+        //uji operasi tiga angka
+        system.out.println("noperasi gabungan tiga angka:");
+        system.out.printf("12.5 + 28.7 - 14.2 = %.2f%n", matcanggih.operasitigangkah(12.5, 28.7, 14.2));
+        
+    }
+}
+
+    
